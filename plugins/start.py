@@ -149,7 +149,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/TeamMayhem")],
+                    [InlineKeyboardButton("• ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ •", url="https://t.me/Anime_Mayhem")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
