@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7553743750:AAGED_CyMNg2YAq52JVNusXzxfSESVikhEk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8182517494:AAEqh_U0MUfPnsKXMwov92CCLJg6c1mvJ1o")
 APP_ID = int(os.environ.get("APP_ID", "27382214")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "6a3913eb3f026ab02e7ac1c420df2ad0") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -29,19 +29,19 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5984303934")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Eren:Eren@cluster0.jytzvbi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Eren")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Makima:Makima@cluster0.tairild.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Makima")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/NaapaExtra")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/a0de0b74d1ad695e8a78f-8e56ae724d932519ed.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/a0de0b74d1ad695e8a78f-8e56ae724d932519ed.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/95b3bd8248aee46e4b5f5-e59a091fa502ce1f30.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/95b3bd8248aee46e4b5f5-e59a091fa502ce1f30.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Anime_Mayhem\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Cultured_Mayhem\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a></blockquote></b>"
 ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TeamMayhem>ᴛᴇᴀᴍ ᴍᴀʏʜᴇᴍ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/anime_mayhem>ᴀɴɪᴍᴇ ᴍᴀʏʜᴇᴍ</a>\n◈ ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇꜱ : <a href=https://t.me/Aniime_Movies>ᴀɴɪᴍᴇ ᴍᴏᴠɪᴇꜱ</a>\n◈ ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Cultured_Mayhem>ᴄᴜʟᴛᴜʀᴇᴅ ᴍᴀʏʜᴇᴍ</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
