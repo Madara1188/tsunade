@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8182517494:AAEqh_U0MUfPnsKXMwov92CCLJg6c1mvJ1o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7826775646:AAEZvlIGwbmW0ypVZ2ytCuSJ-tuXNQFcaAw")
 APP_ID = int(os.environ.get("APP_ID", "27382214")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "6a3913eb3f026ab02e7ac1c420df2ad0") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -29,7 +29,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5984303934")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Makima:Makima@cluster0.tairild.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Miku:Miku@cluster0.f57uqyx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Miku)
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "300"))  # 0 means no expiry
