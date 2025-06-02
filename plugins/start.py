@@ -149,11 +149,10 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ •", url="https://t.me/Cultured_Mayhem")],
 
     [
-                    InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴇʟᴘ •', callback_data = "help")
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data='close')
 
     ]
             ]
@@ -167,8 +166,7 @@ async def start_command(client: Client, message: Message):
                 mention=message.from_user.mention,
                 id=message.from_user.id
             ),
-            reply_markup=reply_markup,
-            message_effect_id=5104841245755180586)  # 🔥
+            reply_markup=reply_markup)
         
         return
 
