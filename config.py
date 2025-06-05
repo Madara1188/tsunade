@@ -33,11 +33,11 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ayane:Ayane@cluster0.rysu
 DB_NAME = os.environ.get("DATABASE_NAME", "Ayane")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "300"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/NaapaExtra")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/MrSungChinWoo")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/814295e93a32e57b81ba9-7090abe2a5e6c61e0d.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/814295e93a32e57b81ba9-7090abe2a5e6c61e0d.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/d5c9fdbf754ad3b78f645-a85f16b893646892a2.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/d5c9fdbf754ad3b78f645-a85f16b893646892a2.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -45,7 +45,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>1. First Join the channel\n2. Tap on Original link again or Reload ⚡️\n3. Tap on Start and Done ✅</blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜᴇʟʟᴏ {first}</blockquote>\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Cultured_Eden</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Yo {first}! 😉 you naughty thing... 😈🔥\n\nJoin the channel first, then hit Try Again to download.\nDon’t keep me waiting...Sweat Heart</b>")
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
