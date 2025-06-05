@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6648688093")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Ayane:Ayane@cluster0.rysudpv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Ayane")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Tsunade:Tsunade@cluster0.alsugzt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Tsunade")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "300"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/MrSungChinWoo")
@@ -45,8 +45,8 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>1. First Join the channel\n2. Tap on Original link again or Reload ⚡️\n3. Tap on Start and Done ✅</blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b>Yo {first}! 😉 you naughty thing... 😈🔥\n\nJoin the channel first, then hit Try Again to download.\nDon’t keep me waiting...Sweat Heart</b>")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜᴇʟʟᴏ {first}</blockquote>\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Cultured_Oasis</blockquote></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Yo {first}! 😉 you naughty thing... 😈🔥\n\nJoin the channel first, then hit Try Again to download.\nDon’t keep me waiting...Sweat Heart</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
 
