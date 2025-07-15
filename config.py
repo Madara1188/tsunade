@@ -30,7 +30,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617")) # Owner id
 PORT = os.environ.get("PORT", "8004")
 #--------------------------------------------
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://DSTWARRIORDB:DSTMONGODB@dstdb.y4cayps.mongodb.net/?retryWrites=true&w=majority&appName=Dstdb")
-DB_NAME = os.environ.get("DATABASE_NAME", "Tsunade")
+DB_NAME = os.environ.get("DATABASE_NAME", "DSTWARRIORDB")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "300"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/cursedfury")
