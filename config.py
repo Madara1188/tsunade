@@ -18,34 +18,34 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8124801668:AAHrwdcGE74hj4DdhGx_cQxbCKXCZoXr07M")
-APP_ID = int(os.environ.get("APP_ID", "11619403")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "b9529ed85c826521157c522f96350c8b") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7195817074:AAGmf7k4cecCwXiUHTUrRXiiThdRpcE-3jI")
+APP_ID = int(os.environ.get("APP_ID", "29285243")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "9324e1e962756ac511288fbf4696ddfd") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002843769030")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "MrSubgChinWoo") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6648688093")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002253541678")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "cursedfury") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8004")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Tsunade:Tsunade@cluster0.62wtwl8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://DSTWARRIORDB:DSTMONGODB@dstdb.y4cayps.mongodb.net/?retryWrites=true&w=majority&appName=Dstdb")
 DB_NAME = os.environ.get("DATABASE_NAME", "Tsunade")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "300"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/MrSungChinWoo")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/cursedfury")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/d5c9fdbf754ad3b78f645-a85f16b893646892a2.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/d5c9fdbf754ad3b78f645-a85f16b893646892a2.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/75de982681ad261ee1d8a-1d6035fbbcb4e0f827.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/2c2df6ab4e3863787a8af-37425e9c5ef98334f2.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Cultured_Mayhem\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/NaapaExtra>ɴᴀᴘᴀᴇxᴛʀᴀ</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @adult_eternals\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/cursedfury>ɴᴀᴘᴀᴇxᴛʀᴀ</a></blockquote></b>"
 ABOUT_TXT = "<b><blockquote>1. First Join the channel\n2. Tap on Original link again or Reload ⚡️\n3. Tap on Start and Done ✅</blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜᴇʟʟᴏ {first}</blockquote>\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Cultured_Oasis</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>ʜᴇʟʟᴏ {first}</blockquote>\n\nɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ\n<blockquote>ᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Adult_Eternals</blockquote></b>")
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Yo {first}! 😉 you naughty thing... 😈🔥\n\nJoin the channel first, then hit Try Again to download.\nDon’t keep me waiting...Sweat Heart</b>")
 
 CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockquote>
